@@ -23,26 +23,26 @@ Ce projet est une application web de gestion scolaire développée dans le cadre
    ```bash
    git clone https://github.com/mafallseye/Gestion-scolaire
    cd Gestion-scolaire
-   
-2. **Installer les  dependance PHP**:
-  ```bash
-composer install
+2. **Installer les  dependance PHP** :
+   ```bash
+   composer install
+3. **Installer  les dépendances JS** :
+   ```bash
+   npm install && npm run dev
 
-3. **Installer  les dépendances JS**:
-  ```bash
-npm install && npm run dev
+## Configuration de l'environnement
 
-4. **Configuration de l'environnement** :
-Créer une copie du fichier .env.example et la nommer .env.
-Configurer les accès à votre base de données MySQL dans le fichier .env.
+- Créer une copie du fichier .env.example et la nommer .env.
+- Configurer les accès à votre base de données MySQL dans le fichier .env.
 
-5. ** Migration de la Base de données**:
-php artisan migrate
+4. **Migration de la Base de données** :
+   ```bash
+   php artisan migrate
 
-6. **Lancer le serveur**:
-php artisan serve
+5. **Lancer le serveur**:
+    ```bash
+   php artisan serve
 
-
-##📝 Auteur
-Maguette Fall SEYE - Étudiant en Master Informatique .
-Sous la direction de M. Abdourahmane Balde.
+## 📝 Auteur
+- Maguette Fall SEYE - Étudiant en Master Informatique .
+- Sous la direction de M. Abdourahmane Balde.
