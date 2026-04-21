@@ -32,17 +32,17 @@ composer install
   ```bash
 npm install && npm run dev
 
-
 4. **Configuration de l'environnement** :
 Créer une copie du fichier .env.example et la nommer .env.
 Configurer les accès à votre base de données MySQL dans le fichier .env.
 
 5. ** Migration de la Base de données**:
-  ```bash
 php artisan migrate
-6 . Lancer le serveur
+
+6. **Lancer le serveur**:
 php artisan serve
 
-📝 Auteur
+
+##📝 Auteur
 Maguette Fall SEYE - Étudiant en Master Informatique .
 Sous la direction de M. Abdourahmane Balde.
