@@ -28,16 +28,16 @@ Ce projet est une application web de gestion scolaire développée dans le cadre
   ```bash
 composer install
 
-3 . **Installer  les dépendances JS**
+3. **Installer  les dépendances JS**
   ```bash
 npm install && npm run dev
 
 
-4 . Configuration de l'environnement :
+4. Configuration de l'environnement :
 Créer une copie du fichier .env.example et la nommer .env.
 Configurer les accès à votre base de données MySQL dans le fichier .env.
 
-5 .** Migration de la Base de données**
+5. ** Migration de la Base de données**
   ```bash
 php artisan migrate
 6 . Lancer le serveur
