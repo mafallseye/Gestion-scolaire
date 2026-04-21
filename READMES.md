@@ -21,13 +21,15 @@ Ce projet est une application web de gestion scolaire développée dans le cadre
 
 1. **Cloner le projet** :
    ```bash
-   git clone https://github.com
+   git clone https://github.com/mafallseye/Gestion-scolaire
    cd Gestion-scolaire
    
-2 . Installer les  dependance PHP
-
+2. **Installer les  dependance PHP**:
+  ```bash
 composer install
-3 . Installer  les dépendances JS
+
+3 . **Installer  les dépendances JS**
+  ```bash
 npm install && npm run dev
 
 
@@ -35,8 +37,8 @@ npm install && npm run dev
 Créer une copie du fichier .env.example et la nommer .env.
 Configurer les accès à votre base de données MySQL dans le fichier .env.
 
-5 . Migration de la Base de données
-
+5 .** Migration de la Base de données**
+  ```bash
 php artisan migrate
 6 . Lancer le serveur
 php artisan serve
