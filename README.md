@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.png" alt="Gestion pédagogique LMD — Inscriptions, notes, moyennes et crédits ECTS — mémoire de Master" width="100%"></p>
+
 # Système de Gestion Pédagogique (LMD)
 
 Ce projet est une application web de gestion scolaire développée dans le cadre de mon mémoire de Master. Elle permet de gérer les inscriptions, les notes, et le calcul automatique des moyennes selon le système LMD (Licence-Master-Doctorat).
